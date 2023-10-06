@@ -9,7 +9,7 @@ function App() {
       <body>
         <div class="head_links">
 
-        <MiHeader/>
+        <MiHeader />
 
         </div>
         <main>
