@@ -1,28 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import MiHeader from './components/header';
+import"./css/header.css"
 
 function App() {
   return (
     <>
       <body>
         <div class="head_links">
-          <header class="nav_links">
-            <nav>
 
-              <a class="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/typefaces.html">Typefaces</a>
-              <a class="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/custom.html">Custom</a>
-              <a class="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/studio.html">Studio</a>
-              <a class="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/cart.html">Cart</a>
+        <MiHeader/>
 
-
-
-
-            </nav>
-
-
-
-
-          </header>
         </div>
         <main>
           <div class="container">
