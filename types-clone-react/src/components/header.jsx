@@ -1,12 +1,13 @@
 
 function MiHeader (props) {
     return(
+      <div className="head_links">
         <header className="nav_links">
         <nav>
         <a className="head_enlace" href="../../../typefaces.html">Typefaces</a>
-          <a className="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/custom.html">Custom</a>
-          <a className="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/studio.html">Studio</a>
-          <a className="head_enlace" href="file:///C:/Users/Usuario/Desktop/L%C3%B3gica%20de%20Programaci%C3%B3n/P%C3%A1gina09/cart.html">Cart</a>
+          <a className="head_enlace" href="../../../custom.html">Custom</a>
+          <a className="head_enlace" href="../../../studio.html">Studio</a>
+          <a className="head_enlace" href="../../../cart.html">Cart</a>
 
 
 
@@ -17,6 +18,7 @@ function MiHeader (props) {
 
 
       </header>
+      </div>
     )
 }
 
