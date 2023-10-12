@@ -1,23 +1,31 @@
-.item{
+.item {
     font-family: 'Poiret One', cursive;
     font-size: 60px;
     color: black;
-    
+
 }
 
 .item:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.lateral{
+.lateral {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
     color: black;
 }
 
 
-.apris{
+.apris {
     font-family: 'Cormorant', serif;
     font-size: 60px;
     color: black;
+}
+
+.typefaces_fonts, .custom_items, .info_footer, .contact__items {
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+
 }
