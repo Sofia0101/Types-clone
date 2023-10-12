@@ -1,15 +1,19 @@
-.footer{
+.footer {
     display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
 }
 
-.list_items{
+.list_items {
     text-decoration: none;
     color: black;
-  
-}
-.list_items_ul{
-      list-style: none;
-}
-.footer_container{
 
+}
+
+.list_items_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
